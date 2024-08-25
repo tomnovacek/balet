@@ -1,13 +1,13 @@
 import { Link } from "gatsby";
 import * as React from "react";
-import logo from "../images/baletni-studio-vandy-skopalove.jpg";
+import logo from "../images/baletni-studio-vandy-skopalove.png";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <>
     <header className="sticky top-0 z-50 flex h-24 bg-white shadow-lg">
       <div className="size-lg-reduced flex items-center justify-between">
         <Link to="/" className="headline4 flex items-center gap-8 font-serif">
-          <img src={logo} alt="YOURProduct" className="w-8 lg:w-12" />
+          <img src={logo} alt="Baletní studio Vandy Skopalové" className="w-12 lg:w-16" />
           <div className="flex gap-2">
             <span>Baletní studio</span>
             <span className="text-emph-sm">Vandy Skopalové</span>
@@ -19,7 +19,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
               <Link to="#how">Jak se přihlásit?</Link>
             </li>
             <li className="hidden lg:block">
-              <Link to="#why">Kde nás najdete?</Link>
+              <Link to="#contact">Kde nás najdete?</Link>
             </li>
           </ul>
         </nav>

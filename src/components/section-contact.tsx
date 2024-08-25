@@ -4,7 +4,7 @@ import map from "../images/map.png";
 import { Link } from "gatsby";
 
 const ContactFormSection: React.FC = () => (
-<section className="size-lg flex h-[calc(100vh-96px)] flex-col justify-around">
+<section id="contact" className="size-lg flex h-[calc(100vh-96px)] flex-col justify-around">
     <div className="hidden lg:block" />
     <div className="flex items-center justify-between gap-16 py-8 lg:py-0">
     <div className="hidden flex-1 items-center justify-center lg:flex">

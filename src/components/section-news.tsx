@@ -1,5 +1,5 @@
 import * as React from "react";
-import why from "../images/vaclavska.jpg";
+import studio from "../images/vaclavska.jpg";
 
 const valuePropositions: { title: string; description: string }[] = [
   {
@@ -33,8 +33,8 @@ const WhySection: React.FC = () => (
       </ul>
       <div className="hidden flex-1 items-center justify-center lg:flex">
         <img
-          src={why}
-          alt="Reasons to use YOURProduct"
+          src={studio}
+          alt="Baletní studio na Václavské v Brně"
           className="max-h-[500px] min-h-[300px]"
         />
       </div>

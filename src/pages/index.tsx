@@ -1,10 +1,10 @@
 import { PageProps, graphql } from "gatsby";
 import * as React from "react";
 import Layout from "../components/layout";
-import ContactFormSection from "../components/section-contact-form";
+import Contact from "../components/section-contact";
 import HowSection from "../components/section-how";
 import LandingSection from "../components/section-landing";
-import WhySection from "../components/section-why";
+import NewsSection from "../components/section-news";
 
 export interface IndexSubpageProps {
   indexData: {
@@ -21,9 +21,9 @@ const IndexPage: React.FC<PageProps<any>> = ({ data }) => {
     <Layout>
       <LandingSection indexData={frontmatter}></LandingSection>
       <HowSection></HowSection>
-      <WhySection></WhySection>
+      <NewsSection></NewsSection>
       <div className="h-32 w-full bg-secondary"></div>
-      <ContactFormSection></ContactFormSection>
+      <Contact></Contact>
     </Layout>
   );
 };
