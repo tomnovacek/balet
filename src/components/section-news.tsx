@@ -20,17 +20,9 @@ const valuePropositions: { title: string; description: string }[] = [
 ];
 
 const WhySection: React.FC = () => (
-  <section id="why" className="size-lg flex flex-col gap-8">
+  <section id="why" className="size-lg flex flex-col gap-8 text-white bg-primary">
     <h2 className="headline4">Novinky</h2>
     <div className="flex justify-between gap-8">
-      <ul data-sal="slide-up" className="flex flex-1 flex-col gap-4">
-        {valuePropositions.map((vp) => (
-          <li key={vp.title} className="flex flex-col gap-4">
-            <h3 className="headline6">{vp.title}</h3>
-            <p className="text-emph-md">{vp.description}</p>
-          </li>
-        ))}
-      </ul>
       <div className="hidden flex-1 items-center justify-center lg:flex">
         <img
           src={studio}
@@ -38,6 +30,15 @@ const WhySection: React.FC = () => (
           className="max-h-[500px] min-h-[300px]"
         />
       </div>
+      <ul data-sal="slide-up" className="flex flex-1 flex-col gap-4">
+        {valuePropositions.map((vp) => (
+          <li key={vp.title} className="flex flex-col gap-4">
+            <h3 className="headline6">{vp.title}</h3>
+            <p className="text-emph-md-negative">{vp.description}</p>
+          </li>
+        ))}
+      </ul>
+
     </div>
   </section>
 );

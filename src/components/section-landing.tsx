@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import * as React from "react";
 import downArrow from "../images/down-arrow.svg";
-import landing from "../images/baletky.jpg";
+import landing from "../images/baletky-wide.png";
 import { IndexSubpageProps } from "../pages";
 
 const LandingSection: React.FC<IndexSubpageProps> = ({ indexData }) => (

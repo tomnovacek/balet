@@ -13,7 +13,7 @@ module.exports = {
         serif: ["Itim", ...defaultTheme.fontFamily.serif],
       },
       colors: {
-        primary: "#008080",
+        primary: "#FE8D30",
         secondary: "#383838",
         error: "#B00020",
       },

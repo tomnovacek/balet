@@ -20,11 +20,11 @@ const steps: { title: string; description: string }[] = [
 ];
 
 const HowSection: React.FC = () => (
-  <section id="how" className="bg-primary text-white">
+  <section id="how" className="">
     <div className="size-lg flex items-center justify-between gap-16">
       <img
         src={how}
-        alt="Step to get the value from YOURProduct"
+        alt="Ukázka baletní hodiny Baletní školy I.V.Psoty"
         className="hidden max-h-[500px] min-h-[300px] lg:block"
       />
       <div className="flex flex-col justify-between gap-8">
@@ -33,7 +33,7 @@ const HowSection: React.FC = () => (
           {steps.map((vp) => (
             <li key={vp.title} className="flex flex-col gap-4 p-4">
               <h3 className="headline6">{vp.title}</h3>
-              <p className="text-emph-md-negative">{vp.description}</p>
+              <p className="text-emph-md">{vp.description}</p>
             </li>
           ))}
         </ul>

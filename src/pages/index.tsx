@@ -20,8 +20,8 @@ const IndexPage: React.FC<PageProps<any>> = ({ data }) => {
   return (
     <Layout>
       <LandingSection indexData={frontmatter}></LandingSection>
-      <HowSection></HowSection>
       <NewsSection></NewsSection>
+      <HowSection></HowSection>
       <div className="h-32 w-full bg-secondary"></div>
       <Contact></Contact>
     </Layout>
