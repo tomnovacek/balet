@@ -14,7 +14,7 @@ const LandingSection: React.FC<IndexSubpageProps> = ({ indexData }) => (
       >
         <h1 className="headline2">{indexData.slogan}</h1>
         <p className="text-emph-md subtitle1">{indexData.sloganDescription}</p>
-        <Link className="btn-primary" to="/">
+        <Link className="btn-primary" to="#how">
           {indexData.sloganButtonText}
         </Link>
       </div>
