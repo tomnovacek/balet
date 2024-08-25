@@ -12,7 +12,7 @@ const LandingSection: React.FC<IndexSubpageProps> = ({ indexData }) => (
         data-sal="slide-up"
         className="flex flex-1 flex-col items-start gap-8"
       >
-        <h1 className="headline2 font-serif">{indexData.slogan}</h1>
+        <h1 className="headline2">{indexData.slogan}</h1>
         <p className="text-emph-md subtitle1">{indexData.sloganDescription}</p>
         <Link className="btn-primary" to="/">
           {indexData.sloganButtonText}

@@ -6,7 +6,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <>
     <header className="sticky top-0 z-50 flex h-24 bg-white shadow-lg">
       <div className="size-lg-reduced flex items-center justify-between">
-        <Link to="/" className="headline4 flex items-center gap-8 font-serif">
+        <Link to="/" className="headline4 flex items-center gap-8">
           <img src={logo} alt="Baletní studio Vandy Skopalové" className="w-12 lg:w-16" />
           <div className="flex gap-2">
             <span>Baletní studio</span>
