@@ -20,7 +20,7 @@ const valuePropositions: { title: string; description: string }[] = [
 ];
 
 const WhySection: React.FC = () => (
-  <section id="why" className="size-lg flex flex-col gap-8 text-white bg-primary">
+  <section id="news" className="size-lg flex flex-col gap-8 text-white bg-primary">
     <h2 className="headline4">Novinky</h2>
     <div className="flex justify-between gap-8">
       <div className="hidden flex-1 items-center justify-center lg:flex">

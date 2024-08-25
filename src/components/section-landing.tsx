@@ -27,7 +27,7 @@ const LandingSection: React.FC<IndexSubpageProps> = ({ indexData }) => (
       </div>
     </div>
     <div className="hidden animate-bounce items-center justify-center lg:flex">
-      <Link to="#how">
+      <Link to="#news">
         <img src={downArrow} alt="Scrollen" className="h-30" />
       </Link>
     </div>
