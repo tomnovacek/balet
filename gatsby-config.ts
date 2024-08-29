@@ -29,7 +29,7 @@ const config: GatsbyConfig = {
         background_color: "#FFFFFF",
         theme_color: "#4B8C91",
         display: "standalone",
-        icon: "src/images/logo.svg",
+        icon: "src/images/favicon-96x96.png",
       },
     },
     "gatsby-transformer-remark",

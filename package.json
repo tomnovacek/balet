@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-cms-landing-page",
+  "name": "brno-balet",
   "version": "1.0.0",
   "private": true,
-  "description": "gatsby-starter-cms-landing-page",
-  "author": "Pascal Betting",
+  "description": "Baletní studio Vandy Skopalové",
+  "author": "Tom Novacek, Vendula Novackova, inspiration from Pascal Betting",
   "keywords": [
-    "gatsby"
+    "balet"
   ],
   "scripts": {
     "develop": "gatsby develop",
